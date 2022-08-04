@@ -49,7 +49,7 @@ header {
   padding-right: 4em;
 }
 
-#right a {
+.purchase-btn {
   background-color: #FF6162;
   padding: 1em;
   border-radius: 5px;
@@ -188,5 +188,20 @@ header {
 
 /* Footer css */
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #292640;
+  padding-bottom: 5em;
+}
+
+footer p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  padding: 2em;
+}
+
+footer a {
 }
