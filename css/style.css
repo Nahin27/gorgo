@@ -66,6 +66,8 @@ header {
   justify-content: center;
   padding-top: 5em;
 }
+
+/* section one text area css */
 #one #text-area {
   margin-right: 5em;
 }
@@ -80,6 +82,7 @@ header {
   padding-top: 2em;
   color: #D2CFCD;
   font-weight: bold;
+  text-align: left;
 }
 
 #one #text-area #arrow a img{
@@ -87,8 +90,42 @@ header {
   padding-top: 1em;
 }
 
+/* Section one image area css */
 #one #img-area .mntn {
   width: 525px;
   height: 450px;
   border-radius: 8px;
+}
+
+/* Section two css */
+#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10em;
+}
+
+#two h2, p {
+  text-align: center;
+}
+
+#two h2 {
+  padding-bottom: 1em;
+  color: #413D52;
+}
+
+#two p {
+  padding-bottom: 1em;
+  color: #D2CFCD;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#two .demo-img {
+  width: 20%;
+}
+
+#two #img-container {
+  display: flex;
+  justify-content: space-around;
 }
