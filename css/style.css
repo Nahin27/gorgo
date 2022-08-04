@@ -80,8 +80,7 @@ header {
 
 #one #text-area p {
   padding-top: 2em;
-  color: #D2CFCD;
-  font-weight: bold;
+  color: #9CA9B2;
   text-align: left;
 }
 
@@ -116,8 +115,7 @@ header {
 
 #two p {
   padding-bottom: 1em;
-  color: #D2CFCD;
-  font-weight: bold;
+  color: #9CA9B2;
   font-style: italic;
 }
 
@@ -128,4 +126,67 @@ header {
 #two #img-container {
   display: flex;
   justify-content: space-around;
+}
+
+/* Section three css */
+#three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15em;
+  padding-bottom: 5em;
+}
+
+#three h2 {
+  color: #292640;
+}
+
+#three p {
+  padding: 1em 0 2em 0;
+  color: #9CA9B2;
+  font-style: italic;
+}
+/* features css */
+#features {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 0 4em;
+}
+
+#features .icons {
+  width: 20%;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px -1px 22px -7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px -1px 22px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -1px 22px -7px rgba(0,0,0,0.75);
+}
+
+#features .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 2em 1em 1em 1em;
+  border-radius: 7px;
+}
+
+#features .box h3, p {
+  text-align: center;
+}
+
+#features .box h3 {
+  color: #2A2641;
+  padding-top: 1em;
+}
+
+#features .box p {
+  color: #9CA9B2;
+  padding-top: 1em;
+}
+
+/* Footer css */
+footer {
+  background-color: #292640;
 }
