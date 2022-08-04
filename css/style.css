@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header css */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header left area css */
+#left {
+  display: flex;
+  padding-left: 4em;
+}
+
+#left #logo {
+  padding: 1em;
+}
+
+#left nav {
+  align-self: baseline;
+}
+
+#left nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 1.2em;
+  margin-left: 2em;
+}
+
+#left nav ul li {
+  padding: 0em 1em;
+}
+
+#left nav ul li a {
+  text-decoration: none;
+  color: #484262;
+  font-weight: bold;
+}
+
+/* header right area css */
+#right {
+  display: flex;
+  align-items: center;
+  padding-right: 4em;
+}
+
+#right a {
+  background-color: #FF6162;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+/* Main section one css */
+#one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5em;
+}
+#one #text-area {
+  margin-right: 5em;
+}
+
+#one #text-area h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+  color: #413D52;
+}
+
+#one #text-area p {
+  padding-top: 2em;
+  color: #D2CFCD;
+  font-weight: bold;
+}
+
+#one #text-area #arrow a img{
+  width: 1em;
+  padding-top: 1em;
+}
+
+#one #img-area .mntn {
+  width: 525px;
+  height: 450px;
+  border-radius: 8px;
+}
